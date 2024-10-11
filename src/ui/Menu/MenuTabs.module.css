@@ -1,0 +1,27 @@
+.tabs_container {
+  /* width: 60%; */
+  /* margin: auto; */
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.tab:hover {
+  border-bottom: 2px solid white;
+  background-color: rgba(139, 0, 0, 0.246);
+}
+
+.tab.active {
+  border-bottom: 2px solid white;
+  background-color: rgba(139, 0, 0, 0.246);
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 144rem;
+  gap: 15%;
+}
+
+.cta,
+.testimonials {
+  flex: 1;
+}

@@ -1,0 +1,30 @@
+.container {
+  /* border-right: 1px solid gray; */
+  height: 100vh;
+}
+
+.sidebarnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 1rem;
+}
+
+.nav {
+}
+.nav_active {
+  text-decoration: none;
+  color: red;
+}
+.logo {
+  font-family: "Modak", serif;
+  font-size: 6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  color: orangered;
+  flex: 1;
+  padding: 0 3rem 2rem 3rem;
+  line-height: 6rem;
+}

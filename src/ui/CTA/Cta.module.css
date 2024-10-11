@@ -1,0 +1,28 @@
+.cts_btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_red {
+  background-color: var(--main-color);
+  color: white;
+  flex: 1;
+  max-width: 175px;
+  text-decoration: none;
+}
+.btn_link {
+  margin: 1rem auto;
+}
+.PhoneIcon {
+  height: 3rem;
+  color: white;
+}
+.phones_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.phone_wrapper {
+  display: flex;
+}

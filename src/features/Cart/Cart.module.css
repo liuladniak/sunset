@@ -1,0 +1,38 @@
+.container {
+  background-color: #faf9fc;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  margin: 1rem;
+}
+.wrapper {
+  background-color: #faf9fc;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.deliveryOptions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2%;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.btn_active {
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  font-weight: bold;
+}
+.btn_checkout {
+  background-color: green;
+}

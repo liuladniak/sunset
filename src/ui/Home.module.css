@@ -1,0 +1,20 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* width: 144rem; */
+  margin: 0 auto;
+}
+.bg_img {
+  object-fit: cover;
+  z-index: -9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: brightness(25%);
+}

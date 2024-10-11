@@ -1,0 +1,11 @@
+.menu_item {
+  margin-bottom: 2rem;
+}
+.menu_item_title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu_item_description {
+  font-size: 1.2rem;
+}

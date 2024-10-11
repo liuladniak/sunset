@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  width: 144rem;
+  margin-top: 5rem;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fav_img_box {
+  flex: 1;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.fav_img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fav_description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.5rem 1.5rem 1.5rem 5rem;
+}
+.section_heading,
+.price {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.dish_title {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+.dish_description {
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}

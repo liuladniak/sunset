@@ -1,0 +1,12 @@
+.lunch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144rem;
+  gap: 3rem;
+  margin-bottom: 8rem;
+}
+
+.lunch_img_box {
+  width: 50rem;
+}

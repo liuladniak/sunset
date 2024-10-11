@@ -1,0 +1,49 @@
+.arrowBoundary {
+  width: 144rem;
+  position: relative;
+  margin: 2rem auto 0 auto;
+}
+.container {
+  background-color: black;
+  height: max-content;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 144rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.arrowContainer {
+  position: absolute;
+  /* width: 5%; */
+  /* height: 10%; */
+  top: 50%;
+  transform: translateY(-50%);
+  /* bottom: 0; */
+  margin: auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.wrapper {
+  background-color: black;
+  overflow: hidden;
+  width: 432rem;
+  display: flex;
+  transition: transform 1.5s ease-in-out;
+  align-items: center;
+}
+.imgContainer {
+  width: 144rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image {
+  width: 100%;
+}
+.arrow_left,
+.arrow_right {
+  font-family: "Jua", sans-serif;
+  font-size: 6rem;
+}

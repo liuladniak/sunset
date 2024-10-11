@@ -1,0 +1,105 @@
+.wrapper {
+  margin-top: 4.5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+  /* border-bottom: 1px solid white; */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 144rem;
+  width: 100%;
+}
+.nav_active {
+  border-bottom: 1px solid white;
+  display: inline;
+  padding-bottom: 0.5rem;
+}
+.nav_logo {
+  /* flex: 0; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.logo {
+  font-family: "Modak", serif;
+  font-size: 8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  color: var(--main-color);
+}
+
+.nav {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex: 1;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.nav_logo {
+  color: var(--main-color);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: center;
+  /* justify-content: center;
+  align-items: flex-start; */
+  flex: 1;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+.nav_logo a {
+  line-height: 6rem;
+}
+.nav_logo span {
+  display: block;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  font-family: "Changa One", sans-serif;
+}
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.ShoppingCartIconBox {
+  position: relative;
+}
+.ShoppingCartIcon {
+  height: 2.7rem;
+}
+
+.cart_number {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.btn_order {
+  background-color: var(--main-color);
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+}
+.btn_menu {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+}
+.nav_left {
+  justify-content: space-between;
+}
+.nav_right {
+  justify-content: flex-end;
+}
